@@ -12,7 +12,7 @@ export default function Hero() {
             playsInline 
             className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-60 pointer-events-none"
         >
-            <source src="/assets/video.mp4" type="video/mp4" />
+            <source src="/assets/vids.mp4" type="video/mp4" />
         </video>
 
         <div className="container mx-auto px-5 relative z-10 grid grid-cols-1 md:grid-cols-2 items-center gap-12 w-full">
