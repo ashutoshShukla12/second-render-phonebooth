@@ -16,7 +16,6 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
     { name: "Services", href: "#services" },
     { name: "About", href: "#about" },
     { name: "Contact", href: "#contact" },
@@ -25,10 +24,10 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 w-full z-1000 transition-all duration-300 ${
-        isScrolled ? "py-4 bg-[#0b0c10]/95 backdrop-blur-md" : "py-5 bg-[#0b0c10]/95 backdrop-blur-md"
+        isScrolled ? "py-4 bg-transparent backdrop-blur-md" : "py-5 bg-transparent backdrop-blur-md"
       }`}
     >
-      <div className="container mx-auto px-5 flex justify-between items-center">
+      <div className="px-5 flex justify-between items-center">
         <Link href="#" className="text-2xl font-bold text-white">
           Phone<span className="text-[#66fcf1]">Booth</span>
         </Link>

@@ -63,7 +63,7 @@ export default function Contact() {
             </div>
           </div>
           
-          <form className="flex flex-col gap-5">
+          <form className="p-9 mt-2 flex flex-col gap-5">
             <div className="form-group">
               <Input 
                 type="text" 

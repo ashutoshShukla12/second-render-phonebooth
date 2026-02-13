@@ -69,7 +69,7 @@
 
 :root {
   /* Design Variables */
-  --bg-color: #0b0c10;
+  --bg-color: #000000;
   --card-bg: #1f2833;
   --text-primary: #ffffff;
   --text-secondary: #c5c6c7;
@@ -129,6 +129,10 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+  }
+  html {
+    @apply snap-y snap-mandatory scroll-smooth;
+    scroll-padding-top: 80px;
   }
   body {
     @apply bg-background text-foreground font-sans;
