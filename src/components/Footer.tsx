@@ -25,7 +25,7 @@ export default function Footer() {
           ))}
         </div>
         
-        <div className="text-[#c5c6c7]/30 text-[0.9rem]">
+        <div className="text-[#c5c6c7]/90 text-[0.9rem]">
           <p>&copy; 2026 PhoneBooth. All rights reserved.</p>
         </div>
       </div>

@@ -16,27 +16,48 @@ export default function Contact() {
             </p>
             
             <div className="space-y-8 mt-8">
-              <div className="flex items-start gap-5">
-                <i className="fas fa-map-marker-alt text-[#66fcf1] text-xl mt-1"></i>
+              <a 
+                href="https://www.google.com/maps?q=phonebooth+brantford+on&hl=en" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-start gap-5 group hover:bg-white/5 p-3 -m-3 rounded-xl transition-colors"
+              >
+                <i className="fas fa-map-marker-alt text-[#66fcf1] text-xl mt-1 group-hover:scale-110 transition-transform"></i>
                 <div>
-                  <h4 className="text-white font-bold mb-1">Location</h4>
-                  <p className="text-[#c5c6c7]">123 Tech Street, Digital City</p>
+                  <h4 className="text-white font-bold mb-1 group-hover:text-[#66fcf1] transition-colors">Location</h4>
+                  <p className="text-[#c5c6c7]">42 Dalhousie St, Brantford, ON, N3T 2H8</p>
                 </div>
-              </div>
+              </a>
               
-              <div className="flex items-start gap-5">
-                <i className="fas fa-phone text-[#66fcf1] text-xl mt-1"></i>
+              <a 
+                href="tel:+12269221215"
+                className="flex items-start gap-5 group hover:bg-white/5 p-3 -m-3 rounded-xl transition-colors"
+              >
+                <i className="fas fa-phone text-[#66fcf1] text-xl mt-1 group-hover:scale-110 transition-transform"></i>
                 <div>
-                  <h4 className="text-white font-bold mb-1">Phone</h4>
-                  <p className="text-[#c5c6c7]">+91 98765 43210</p>
+                  <h4 className="text-white font-bold mb-1 group-hover:text-[#66fcf1] transition-colors">Phone</h4>
+                  <p className="text-[#c5c6c7]">+1 226 922 1215</p>
                 </div>
-              </div>
+              </a>
               
-              <div className="flex items-start gap-5">
-                <i className="fas fa-envelope text-[#66fcf1] text-xl mt-1"></i>
+              <a 
+                href="mailto:Phonebooth042@gmail.com"
+                className="flex items-start gap-5 group hover:bg-white/5 p-3 -m-3 rounded-xl transition-colors"
+              >
+                <i className="fas fa-envelope text-[#66fcf1] text-xl mt-1 group-hover:scale-110 transition-transform"></i>
                 <div>
-                  <h4 className="text-white font-bold mb-1">Email</h4>
-                  <p className="text-[#c5c6c7]">support@phonebooth.co.in</p>
+                  <h4 className="text-white font-bold mb-1 group-hover:text-[#66fcf1] transition-colors">Email</h4>
+                  <p className="text-[#c5c6c7]">Phonebooth042@gmail.com</p>
+                </div>
+              </a>
+
+              <div className="flex items-start gap-5 p-3 -m-3">
+                <i className="fas fa-clock text-[#66fcf1] text-xl mt-1"></i>
+                <div>
+                  <h4 className="text-white font-bold mb-1">Store Hours</h4>
+                  <p className="text-[#c5c6c7]">Monday &ndash; Friday: 10:00 AM &ndash; 8:00 PM</p>
+                  <p className="text-[#c5c6c7]">Saturday: 11:00 AM &ndash; 7:00 PM</p>
+                  <p className="text-[#c5c6c7]">Sunday: 11:00 AM &ndash; 6:00 PM</p>
                 </div>
               </div>
             </div>

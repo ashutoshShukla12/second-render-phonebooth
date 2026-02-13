@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative h-screen flex items-center pt-20 overflow-hidden">
+    <section id="home" className="relative h-[75vh] flex items-center pt-20 overflow-hidden">
         {/* Video Background */}
         <video 
             autoPlay 
@@ -12,7 +12,7 @@ export default function Hero() {
             playsInline 
             className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-60 pointer-events-none"
         >
-            <source src="/assets/vids.mp4" type="video/mp4" />
+            <source src="/assets/dark.mp4" type="video/mp4" />
         </video>
 
         <div className="container mx-auto px-5 relative z-10 grid grid-cols-1 md:grid-cols-2 items-center gap-12 w-full">
@@ -23,7 +23,7 @@ export default function Hero() {
                         Premium Service.
                     </span>
                 </h1>
-                <p className="text-lg text-[#c5c6c7] mb-8 max-w-[500px] mx-auto md:mx-0">
+                <p className="text-lg text-ehite mb-8 max-w-[500px] mx-auto md:mx-0">
                     Your one-stop destination for expert repairs, latest smartphones, and premium accessories. Buy, sell, trade, or fix your device with confidence.
                 </p>
                 <div className="flex gap-5 justify-center md:justify-start">

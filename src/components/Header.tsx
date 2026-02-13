@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -60,6 +60,7 @@ export default function Header() {
               </div>
             </SheetTrigger>
             <SheetContent side="right" className="bg-[#1f2833] border-none text-white w-[60%] pt-20">
+              <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
               <nav className="flex flex-col items-center gap-8">
                 {navLinks.map((link) => (
                   <Link
